@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Online Field System
+    style.
+      /* Add your custom CSS styles here */
+      body {
+        background-color: #f0f0f0;
+        margin: 0 15% 0 15%;
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom: 2px solid #333;
+        margin-top: 30px;
+      }
+      h2, h3 {
+        margin-top: 20px;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+
+  body
+    h1 Online Field System
+
+    .application-part
+      h2 Application Part
+      p
+        | This section provides information about the application part of the online field system.
+        | You can learn about the application process, requirements, and how to apply for fields.
+
+    .field-info
+      h2 Field Info
+      p
+        | Here, you can find detailed information about different types of fields.
+        | Learn about the specifications, soil conditions, and other relevant details for each field.
+
+    .places-found
+      h2 Places Where the Field is Found
+      h3 Field 1
+      p
+        | Description of where Field 1 is located, including geographical details and any relevant landmarks.
+      h3 Field 2
+      p
+        | Description of where Field 2 is located, including geographical details and any relevant landmarks.
+
+    block content
+
+  footer
+    | Online Field System @2024
